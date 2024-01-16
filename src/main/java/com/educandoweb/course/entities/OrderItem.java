@@ -74,6 +74,10 @@ public class OrderItem implements Serializable{
 	public void setPrice(double price) {
 		Price = price;
 	}
+	
+	public Double getSubTotal() {
+		return Price * quantity;
+	}
 
 
 
